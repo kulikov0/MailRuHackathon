@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+            android:id="@+id/sv_options"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools"
+            android:layout_above="@+id/btn_save">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:textSize="30sp"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:text="Мультичойс"/>
+
+            <View android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginBottom="50dp"
+                  android:background="@color/view_line_color"/>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/mMedium"
+                    android:layout_marginStart="@dimen/mMedium"
+                    android:layout_marginEnd="@dimen/mMedium">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textSizeRegular"
+                        android:text="Cистема полива"/>
+
+                <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:theme="@style/CustomSwitch"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/mMedium"
+                    android:layout_marginStart="@dimen/mMedium"
+                    android:layout_marginEnd="@dimen/mMedium">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textSizeRegular"
+                        android:text="CO2"/>
+
+                <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:theme="@style/CustomSwitch"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/mMedium"
+                    android:layout_marginStart="@dimen/mMedium"
+                    android:layout_marginEnd="@dimen/mMedium">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textSizeRegular"
+                        android:text="Влажность воздуха"/>
+
+                <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:theme="@style/CustomSwitch"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/mMedium"
+                    android:layout_marginStart="@dimen/mMedium"
+                    android:layout_marginEnd="@dimen/mMedium">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textSizeRegular"
+                        android:text="Температура воздуха"/>
+
+                <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:theme="@style/CustomSwitch"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/mMedium"
+                    android:layout_marginStart="@dimen/mMedium"
+                    android:layout_marginEnd="@dimen/mMedium">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textSizeRegular"
+                        android:text="Уровень воды"/>
+
+                <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:theme="@style/CustomSwitch"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/mMedium"
+                    android:layout_marginStart="@dimen/mMedium"
+                    android:layout_marginEnd="@dimen/mMedium">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textSizeRegular"
+                        android:text="Концентрация раствора"/>
+
+                <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:theme="@style/CustomSwitch"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/mMedium"
+                    android:layout_marginStart="@dimen/mMedium"
+                    android:layout_marginEnd="@dimen/mMedium">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textSizeRegular"
+                        android:text="Влажность почвы"/>
+
+                <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:theme="@style/CustomSwitch"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/mMedium"
+                    android:layout_marginEnd="@dimen/mSmall">
+
+                <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textSizeRegular"
+                        android:text="Cветовой день"/>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/mXSmall"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_toEndOf="@+id/tv_date"
+                        android:layout_centerVertical="true">
+
+                    <android.support.v7.widget.AppCompatSeekBar
+                            style="@style/SeekBarStyle"
+                            android:id="@+id/seekbar_distance"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:max="24"
+                            android:progressDrawable="@drawable/seekbar_style"
+                            android:thumb="@drawable/seekbar_thumb"/>
+
+                    <TextView
+                            android:id="@+id/text_distance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="5m"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/rounded_button"
+            android:text="Сохранить"
+            android:textColor="#FFF"
+            android:textAllCaps="false"/>
+
+</RelativeLayout>

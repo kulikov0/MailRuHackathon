@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textSizeMXSmall">8sp</dimen>
+    <dimen name="textSizeMSmall">10sp</dimen>
+    <dimen name="textSizeSmall">14sp</dimen>
+    <dimen name="textSizeRegular">16sp</dimen>
+    <dimen name="textSizeH3">20sp</dimen>
+    <dimen name="textSizeH2">24sp</dimen>
+
+    <!--<dimen name="image_attendee_big">80dp</dimen>-->
+    <!--<dimen name="margin_larger">24dp</dimen>-->
+
+    <dimen name="mXSmall">8dp</dimen>
+    <dimen name="mSmall">16dp</dimen>
+    <dimen name="mXMedium">20dp</dimen>
+    <dimen name="mMedium">24dp</dimen>
+    <dimen name="mLarge">32dp</dimen>
+    <dimen name="mXLarge">40dp</dimen>
+    <dimen name="mXXLarge">50dp</dimen>
+
+</resources>
